@@ -4,7 +4,7 @@ import { getFirestore, collection, addDoc, getDocs, updateDoc, deleteDoc, doc } 
 
 // ✅ Firebase Config
 const firebaseConfig = {
-    apiKey: "AIzaSyCZlX9rM8XLf9MHn2C-MPMW9pGi6TdN1UQ",
+    apiKey: "*************************",
     authDomain: "simple-todolist-ba8f0.firebaseapp.com",
     projectId: "simple-todolist-ba8f0",
     storageBucket: "simple-todolist-ba8f0.firebasestorage.app",
@@ -139,4 +139,5 @@ searchBox.addEventListener("keyup", () => {
 });
 
 // 🌿 Initial Load
+
 loadTodos();
